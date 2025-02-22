@@ -1,0 +1,12 @@
+Proje amacı:Java da toplama işlemleri kullanıcı&&girilen sayıdan.
+		Scanner oku=new Scanner(System.in);
+		int sayi1,sayi2,sayi3,sayi4;
+		System.out.print("Birinci sayıyı giriniz:");
+		sayi1=oku.nextInt();
+		System.out.print("İkinci sayıyı giriniz:");
+		sayi2=oku.nextInt();
+		System.out.println("Sonuc="+(sayi1+sayi2));
+		sayi3=15;
+		sayi4=15;
+		System.out.println("Sonuc="+(sayi3+sayi4));
+		
