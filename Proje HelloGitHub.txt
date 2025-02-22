@@ -1,0 +1,9 @@
+Proje amacı:Java ile bir metin belgesi yazdırmak.
+-------------------------------------------------------------
+String ad="HelloGitHub";
+		System.out.print("Yazdırmak istedğim="+ad);
+
+
+
+//İnsanların araştırması için kodlara "{}" eklemesi yapılmamıştır.
+//Thank you very much :)
