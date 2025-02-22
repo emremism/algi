@@ -1,0 +1,10 @@
+Proje amacı:Klavyeden girilen sayının tek mi çift mi olduğunu bulma.
+Scanner oku=new Scanner(System.in);
+		System.out.print("Sayıyı giriniz:");
+		int sayi=oku.nextInt();
+		if(sayi%2==0) {
+			System.out.print(sayi+" "+"bu sayı çifttir");
+		}
+		else {
+			System.out.print(sayi+" "+"bu sayı tektir");
+		}
