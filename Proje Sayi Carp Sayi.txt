@@ -1,0 +1,12 @@
+Proje amacı:Girdiğiniz sayı kadar çarpan ve çarptığınız sayıyı tekrar girdiğiniz sayı kadar çarpan program.
+------------------------------------------------------------------------------------------------------------
+	Scanner oku=new Scanner(System.in);
+		System.out.print("Bir sayı giriniz=");
+		int sayi=oku.nextInt();
+		int sonuc=1;
+		for(int i=1;i=sayi;i++) {
+		sonuc*=sayi;
+		System.out.println(i+"="sonuc);
+                }
+                
+		
