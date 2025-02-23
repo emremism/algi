@@ -1,0 +1,26 @@
+Proje amacı:Java ile hesap makinesi oluşturmak.
+--------------------------------------------------------------
+Scanner oku=new Scanner(System.in);
+		System.out.println("sayı gir:");
+		int sayi1=oku.nextInt();
+		System.out.println("sayı gir:");
+		int sayi2=oku.nextInt();
+		System.out.println("Bir işlem seç:");
+		int secim=oku.nextInt();
+		switch(secim) {
+		case 1:
+			System.out.print(sayi1+sayi2);
+		break;
+		case 2:
+			System.out.print(sayi1*sayi2);
+		break;
+		case 3:
+			System.out.print((float)+(sayi1/sayi2));
+		break;
+		case 4:
+			System.out.print(sayi1*sayi2);
+		break;
+		default:
+		}
+		
+		
